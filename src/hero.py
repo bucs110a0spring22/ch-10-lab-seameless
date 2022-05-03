@@ -32,10 +32,13 @@ class Hero(pygame.sprite.Sprite):
         self.rect.x += self.speed
 
     def fight(self, opponent):
-        if(random.randrange(3)):
+      '''Decrease health by 25 percent on each attack'''
+      if(random.randrange(3)):
             self.health -= 1
             print("attack failed. Remaining Health: ", self.health)
+            self.speed == 0.75 * self.speed 
             return False
-        else:
+      else:
             print("successful attack")
-        return True
+            self.speed == 0.75 * self.speed
+      return True

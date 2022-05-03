@@ -4,24 +4,23 @@
 
 ### [Assignment Description](https://docs.google.com/document/d/1kFLQs7Lepb8hcYOrZq5scmRmdcNkIwWZ6Kb85_0bCVY/edit?usp=sharing)
 
-***
-Replace anything surrounded by the `< >` symbols._
+
 
 ## SUMMARY:
- < Provide a short description of your program's functionality. No more than a couple sentences. >
+The code in update was modified to allow the enemies to have random moves in each frame.
 #### Unique Feature
- < Describe the unique feature you added >
+To force the player to be strategic about attacks, each attack results in a 25 percent reduction in speed as the hero tires. This leaves him more vulnerable to being hit by a nearby enemy.
 
 ## GRACE DAYS
-Grace days used for this assignment: < # >
+Grace days used for this assignment: 0
 
-Grace days remaining: < # >/5
+Grace days remaining: 2
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- < What parts of the project you were not able to complete >
+ None
 
 ## REFERENCES:
- < List any outside resources used >
+None
 
 ## MISCELLANEOUS COMMENTS:
- < Anything you would like the grader to know >
+ None
